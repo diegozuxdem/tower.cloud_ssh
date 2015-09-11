@@ -1,5 +1,5 @@
 ---
-- hosts: 127.0.0.1
+- hosts: aws_cloudssh_cluster
   gather_facts: no
   sudo: yes
   roles:
