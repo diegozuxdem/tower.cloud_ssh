@@ -1,0 +1,6 @@
+---
+- hosts: aws_cloudssh_cluster
+  gather_facts: no
+  sudo: yes
+  roles:
+    - { role: apache, tags: ["apache"] }
